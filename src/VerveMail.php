@@ -18,7 +18,7 @@ class VerveMail
     public static function run($key, $secret, $method, $arguments = [])
     {
         // set endpoint
-        $url = '';
+        $url = 'https://email.vervemail.com/api/xmlrpc/index.php';
 
         // patch arguments
         $arguments = array_merge(['methodName' => $method], $arguments);
