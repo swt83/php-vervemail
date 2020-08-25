@@ -25,4 +25,4 @@ $response = VerveMail::run($key, $secret, 'legacy.retrieve_active', [
 ]);
 ```
 
-This will return the first 100 emails in your list.  See the [API Guide](http://www.bluehornet.com/api/guide/) for additional methods.
+This will return the first 100 emails in your list.  See the [API Guide](http://bh-ems-static-content.s3.amazonaws.com/mappapi/legacy.manage_subscriber.html) for additional methods.
